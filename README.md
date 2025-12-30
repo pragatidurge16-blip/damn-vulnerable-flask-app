@@ -96,6 +96,7 @@ Step 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/damn-vulnerable-flask-app.git
 cd damn-vulnerable-flask-app
+cd vuln_app
 
 Step 2️⃣ Install Dependencies
 pip install flask
