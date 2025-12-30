@@ -1,0 +1,21 @@
+<h2>Vulnerability Test Panel</h2>
+
+<h3>🔴 Vulnerable</h3>
+<a href="/user?id=2">Test IDOR</a><br><br>
+
+<form action="/deserialize" method="POST">
+<textarea name="data">{ "role":"admin" }</textarea><br>
+<button>Test Deserialization</button>
+</form>
+
+<hr>
+
+<h3>🟢 Fixed</h3>
+<a href="/secure_user?id=2">Verify IDOR Fix</a>
+<br><br>
+
+<h3>🟢 Verify Deserialization Fix</h3>
+<form action="/secure_deserialize" method="POST">
+    <textarea name="data">{ "role":"admin" }</textarea><br>
+    <button>Verify Secure Deserialization</button>
+</form>

@@ -1,0 +1,22 @@
+<h2>Login</h2>
+
+<!-- 🔴 Vulnerable Login -->
+<form method="POST">
+    Username: <input name="username"><br><br>
+    Password: <input type="password" name="password"><br><br>
+    <button>Login (Vulnerable)</button>
+</form>
+
+<a href="/register">Register</a>
+
+<hr>
+
+<!-- 🟢 Secure SQL Injection Test -->
+<h3>🟢 Verify SQL Injection Fix</h3>
+<form action="/secure_login" method="POST">
+    <input name="username" placeholder="username"><br><br>
+    <input name="password" placeholder="password"><br><br>
+    <button>Verify Secure SQL Login</button>
+</form>
+<hr>
+<a href="/bug-bounty">🛡 Open Bug Bounty Program</a>

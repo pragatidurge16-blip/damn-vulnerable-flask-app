@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="card">
+    <h2>User Profile</h2>
+
+    <p><b>ID:</b> {{ user[0] }}</p>
+    <p><b>Username:</b> {{ user[1] }}</p>
+    <p><b>Email:</b> {{ user[2] }}</p>
+
+    <div class="alert">
+        🔴 IDOR Vulnerable: Change <code>?id=</code> in URL
+    </div>
+
+    <div class="safe">
+        🟢 Secure endpoint blocks unauthorized access
+    </div>
+</div>
+
+</body>
+</html>
