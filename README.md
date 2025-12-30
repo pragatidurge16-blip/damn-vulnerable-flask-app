@@ -1,6 +1,5 @@
-# damn-vulnerable-flask-app/python
-A deliberately vulnerable Python Flask web app for learning OWASP vulnerabilities.
 # Damn Vulnerable Flask Application (DVFA)
+A deliberately vulnerable Python Flask web app for learning OWASP vulnerabilities.
 
 ## 📌 Project Overview
 
