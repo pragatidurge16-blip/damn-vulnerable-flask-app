@@ -78,6 +78,7 @@ damn-vulnerable-flask-app/
 ├── README.md
 └── .gitignore
 
+```
  📚 Documentation
 
 Detailed documentation is available inside the `docs/` folder:
@@ -88,6 +89,7 @@ Detailed documentation is available inside the `docs/` folder:
 
 ---
 
+```
  🚀 How to Run the Application
 
 Step 1️⃣ Clone the Repository
@@ -106,6 +108,7 @@ python app.py
 Step 4️⃣ Access in Browser
 http://127.0.0.1:5000
 
+```
 🔐 Secure Coding Practices Demonstrated
 Parameterized SQL queries
 Session-based authentication
@@ -114,10 +117,12 @@ Access control checks
 Allow-list validation
 Avoiding unsafe deserialization
 
+```
 ⚠️ Disclaimer
 This project is developed strictly for learning and academic demonstration.
 The author is not responsible for any misuse of this application.
 
+```
 📖 References
 OWASP Top 10 Web Application Security Risks
 OWASP Juice Shop (Conceptual Reference Only)
